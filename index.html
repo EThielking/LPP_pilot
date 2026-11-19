@@ -601,7 +601,7 @@ function screenInstructionCheck(afterDemographics=true,index=0,previewRecord=nul
 }
 
 function screenParticipantID() {
-  setState('participant_id');show('<p class="eyebrow">Before you begin</p><h1>Participant information</h1><label class="field" for="pid">Participant ID</label><input id="pid" type="text" maxlength="64" autocomplete="off" spellcheck="false"><p id="idError" class="error"></p><div class="row"><button id="idNext">Continue</button></div>');
+  setState('participant_id');show('<p class="eyebrow">Before you begin</p><h1>Participant information</h1><label class="field" for="pid">Participant ID</label><p><strong>Soka students:</strong> Enter your Soka ID.<br><strong>All other participants:</strong> Enter your name as <strong>lastname_firstname</strong> (for example, <strong>smith_jane</strong>).</p><input id="pid" type="text" maxlength="64" autocomplete="off" spellcheck="false"><p id="idError" class="error"></p><div class="row"><button id="idNext">Continue</button></div>');
   const next=()=>{const value=$('pid').value.trim();if(!/^[A-Za-z0-9_-]{1,64}$/.test(value)){$('idError').textContent='Enter an ID using letters, numbers, hyphens or underscores.';return;}pid=value;questionnaire={};chosenSectionCount=null;plan=[];showDemographic(0);};
   bind('idNext',next);$('pid').onkeydown=e=>{if(e.key==='Enter'&&!e.repeat){e.preventDefault();next();}};$('pid').focus();
 }
