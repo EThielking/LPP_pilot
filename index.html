@@ -2,20 +2,39 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LPP audiobook study</title><meta name="description" content="The Little Prince audiobook study: attention, sleepiness and typed recall">
 <style>
 :root{--bg:#3a3c62;--panel:#303252;--ink:#faf8f2;--muted:#d1d3e2;--accent:#d0eee2;--line:#66698b;--warn:#f2d59a;--bad:#ffb7aa;--sans:Helvetica,"Helvetica Neue",Arial,sans-serif}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font-family:var(--sans)}body{font-size:17px;line-height:1.65}header,footer{max-width:1000px;margin:auto;padding:23px 30px;display:flex;align-items:center;justify-content:space-between;gap:16px}header{border-bottom:1px solid var(--line)}footer{border-top:1px solid var(--line);font-size:13px;color:var(--muted)}main{max-width:1000px;margin:auto;padding:43px 30px 60px;min-height:calc(100vh - 165px)}.flow{max-width:720px;margin:auto}.wordmark{font-size:15px;color:var(--ink)}h1{font-size:32px;font-weight:500;letter-spacing:-.025em;line-height:1.3;margin:0 0 23px}h2{font-size:21px;font-weight:500;margin:32px 0 14px}h3{font-size:17px;margin:25px 0 10px}p{margin:0 0 18px}.small{font-size:14px;color:var(--muted)}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:16px}.panel{padding:25px;border:1px solid var(--line);background:var(--panel);border-radius:9px;margin:24px 0}.panel p:last-child{margin-bottom:0}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:24px}button{font:inherit;font-size:15px;font-weight:600;color:#242743;background:var(--accent);border:1px solid transparent;border-radius:7px;padding:12px 20px;cursor:pointer}button:hover{filter:brightness(1.07)}button:disabled{opacity:.45;cursor:not-allowed}button.secondary{background:transparent;color:var(--ink);border-color:var(--line)}button.text-button{background:transparent;color:var(--muted);padding:0;font-weight:400;font-size:13px}.option{display:block;width:100%;text-align:left;margin:10px 0;background:var(--panel);color:var(--ink);border-color:var(--line);font-weight:400;padding:16px}.option b{color:var(--accent);display:inline-block;min-width:35px}.field{display:block;font-size:15px;color:var(--muted);margin:16px 0 8px}input[type=text],textarea,select{font:inherit;color:var(--ink);background:#282b4a;border:1px solid var(--line);border-radius:6px;padding:13px;width:100%}textarea,select{min-height:115px;resize:vertical}.check{display:flex;gap:12px;align-items:flex-start;font-size:15px;margin:18px 0}.check input{margin-top:7px;accent-color:var(--accent)}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.notice{background:#303955;border-left:3px solid var(--accent);padding:14px 17px;margin:20px 0;border-radius:0 6px 6px 0;font-size:15px}.notice.warn{border-color:var(--warn);color:var(--warn)}.notice.error,.error{color:var(--bad)}.notice.error{border-color:var(--bad)}kbd{font:14px ui-monospace,monospace;border:1px solid var(--line);border-bottom-width:3px;background:#282b4a;border-radius:4px;padding:3px 7px;white-space:nowrap}.welcome{display:grid;grid-template-columns:1fr 205px;gap:42px;align-items:start}.cover{margin:0}.cover img{display:block;width:100%;height:auto;border-radius:4px;box-shadow:0 12px 30px #17182c40}.scale{padding:0;list-style:none;margin:12px 0 22px}.scale li{display:flex;gap:16px;padding:6px 0;border-bottom:1px solid var(--line);font-size:15px}.scale b{min-width:18px}.keys{display:flex;gap:20px;align-items:baseline;border-bottom:1px solid var(--line);padding:17px 0}.keys:last-child{border:0}.keys p{margin:5px 0 0}.cue{font-size:24px;line-height:1.5;color:var(--accent);padding:20px 0}.examples{border-left:1px solid var(--line);padding-left:20px;margin:20px 0}ul{padding-left:23px}li{margin:6px 0}details{margin:20px 0}summary{cursor:pointer;color:var(--accent)}.progress{height:7px;border-radius:6px;background:#252742;overflow:hidden;margin:22px 0}.progress>span{display:block;background:var(--accent);height:100%;width:0;transition:width .15s}.listening header,.listening footer{visibility:hidden}.listening main{min-height:82vh;display:grid;place-items:center}.listening .flow{text-align:center}.listening h1{font-size:28px;color:#c3c6dc}.listening p{color:#bec2d8}.delivery{max-width:560px;font-size:13px;color:var(--muted)}dialog{max-width:800px;width:calc(100% - 30px);max-height:90vh;overflow:auto;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:28px}dialog::backdrop{background:#151624bb}.session-item{padding:18px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.session-item .row{margin-top:10px}.thank-cover{width:145px;margin:25px auto;animation:float 5s ease-in-out infinite}.thank-cover img{width:100%;border-radius:4px}.stars{text-align:center;color:var(--warn);letter-spacing:20px;font-size:28px;animation:glimmer 3s ease-in-out infinite}.center{text-align:center}@keyframes float{50%{transform:translateY(-9px) rotate(1deg)}}@keyframes glimmer{50%{opacity:.45}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}@media(max-width:650px){body{font-size:16px}header,footer{padding:20px}main{padding:32px 20px 45px}h1{font-size:27px}.welcome{grid-template-columns:1fr 125px;gap:20px}.panel{padding:20px}}@media(max-width:450px){.welcome{grid-template-columns:1fr}.cover{width:125px;grid-row:1}.row button{width:100%}footer{align-items:flex-start}}
+
+/* Uncluttered task displays; instructions retain the existing visual style. */
+.instruction-emphasis{font-size:1em;line-height:1.7;padding:22px 24px;margin:28px 0;border-left-width:4px}
+.task-screen header,.task-screen footer{display:none}
+.task-screen main{min-height:100vh;display:grid;align-items:center;padding:48px 30px}
+.task-screen .flow{width:100%;max-width:820px}
+.task-screen h1{font-size:30px}
+.task-screen .scale{max-width:660px;margin:0 auto}
+.task-screen .scale li{font-size:18px;padding:8px 0}
+.task-screen .scale b{color:var(--accent);min-width:24px}
+.task-screen .keys{font-size:22px}
+.recall-line{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin:28px 0}
+.recall-cue{font-size:22px;line-height:1.6;color:var(--accent)}
+.recall-line input[type=text]{flex:1 1 240px;width:auto;min-width:180px;font-size:22px}
+.view-gate{position:fixed;inset:0;z-index:10000;background:var(--bg);display:grid;place-items:center;padding:30px}
+.view-gate[hidden]{display:none}
+.view-gate>div{width:100%;max-width:560px}
+@media(max-width:650px){.task-screen main{padding:30px 20px}.task-screen h1{font-size:25px}.task-screen .scale li{font-size:16px}.recall-cue,.recall-line input[type=text]{font-size:19px}}
 </style></head><body>
 <header><span class="wordmark">LPP audiobook study</span><span id="headerProgress" class="small"></span></header>
 <main id="app" aria-live="polite"></main>
 <footer><span id="deliveryStatus" class="delivery"></span><button id="researcherToggle" class="text-button">Researcher settings</button></footer>
 <dialog id="settings"><div id="settingsContent"></div><div class="row"><button id="closeSettings" class="secondary">Close</button></div></dialog>
+<div id="viewGate" class="view-gate" role="dialog" aria-modal="true" aria-labelledby="viewGateTitle" hidden><div><h1 id="viewGateTitle">Paused</h1><p id="viewGateMessage">Return to this tab and full screen to continue.</p><div class="row"><button id="returnFullscreen">Return to full screen</button><button id="stopPausedSession" class="secondary">Stop and save responses</button></div></div></div>
 <script type="module">
 /* Study settings */
 const CONFIG = {
   DATA_ENDPOINT: 'https://script.google.com/macros/s/AKfycbyjmFqYtgD0--OcsmWUfPVyp-aJeHK9b_LsGxa3h_tlKPLfhX5vhPLBgUHdUCddXQf3/exec', // Paste the NEW separate study deployment /exec URL here
-  APP_VERSION: 'lpp-typed-2.0',
+  APP_VERSION: 'lpp-typed-2.1',
   CONTACT_EMAIL: 'esther.thielking@gmail.com',
   // Change this number to change the REQUIRED block count for Soka students
   // Use 1–9; the prepared website must include sections 1 through that number
-  // This does not change the mandatory two-probe practice for Soka students
+  // Two-probe practice is mandatory for EVERY participant
   SOKA_REQUIRED_SECTION_COUNT: 5,
   // Other participants choose a count from 1 to the smaller of this and the prepared count
   NON_SOKA_MAX_SECTION_COUNT: 9,
@@ -35,7 +54,7 @@ const QUESTIONS = [
   {id:'priorExposureLittlePrince',question:'Before today, how much of The Little Prince had you read or listened to?',options:['None of it','Some of it','All of it']},
   {id:'familiarityLittlePrince',question:'Before today, how familiar were you with the story of The Little Prince?',options:['Not at all familiar','Slightly familiar','Moderately familiar','Very familiar']}
 ];
-const KSS = ['extremely alert','very alert','alert','rather alert','neither alert nor sleepy','some signs of sleepiness','sleepy, but no effort to keep awake','sleepy, some effort to keep awake','very sleepy, great effort to keep awake'];
+const KSS = ['extremely alert','very alert','alert','rather alert','neither alert nor sleepy','some signs of sleepiness','sleepy, but no effort to keep awake','sleepy, making some effort to keep awake','very sleepy, great effort to keep awake, fighting sleep'];
 const $ = id => document.getElementById(id);
 const esc = x => String(x ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sleep = ms => new Promise(resolve=>setTimeout(resolve,ms));
@@ -49,29 +68,27 @@ let ctx=null, bell=null, story=null, storySection=null, activeSources=new Set(),
 let writeChain=Promise.resolve(), latestCheckpoint=null, requestedRevision=0, uploadRunning=false, uploadChain=Promise.resolve(), uploadTimer=null, uploadError='', heartbeatTimer=null;
 let draftTimer=null, practiceIndex=0, practiceChoices=[], practiceBuffers=new Map(), practiceRunning=false, currentPractice=null, currentStopPerf=null;
 let questionnaire={}, pid='', localSaveError='', ending=false, confirmedDownload=false, chosenSectionCount=null;
+let fullscreenEnforced=false, viewGate=null, gateResumeBusy=false, activePassage=null;
 
 function setState(next,details={}) {
   state=next; keyHandler=null; pendingKeyRelease=null;
   if(session) session.progress={...session.progress,phase:next,section:sectionInfo?.section??null,probeNumber:currentTrial?.probeNumber??null,buffering:false,...details};
 }
-function releaseReady() {
-  if(held.size||!pendingKeyRelease)return;
-  const ready=pendingKeyRelease;pendingKeyRelease=null;ready();
-}
+function releaseReady() { /* A fresh non-repeat key is sufficient; no stale-key gate. */ }
 function armChoice(handler,onReady) {
-  keyHandler=null;
-  pendingKeyRelease=()=>{onReady();keyHandler=handler;};
-  releaseReady();
+  pendingKeyRelease=null;
+  onReady();keyHandler=handler;
 }
 function show(body,listening=false) {
   document.body.classList.toggle('listening',listening);
+  document.body.classList.toggle('task-screen',listening||['attention','sleepiness','recall','practice_attention','practice_sleepiness','practice_recall','section_bell','questions_intro','comprehension','confidence'].includes(state));
   $('app').innerHTML=`<section class="flow">${body}</section>`;
   window.scrollTo(0,0);
-  $('headerProgress').textContent=session?.status==='complete'?'Study complete':session?.status==='aborted'?'Session stopped':session&&sectionInfo?`Block ${Math.min(sectionIndex+1,plan.length)} of ${plan.length}`:'';
+  $('headerProgress').textContent='';
   $('researcherToggle').disabled=Boolean(session?.status==='in_progress');
   updateDelivery();
 }
-function bind(id,fn) { const el=$(id);if(el)el.onclick=safe(async(...args)=>{if(el.disabled)return;el.disabled=true;try{return await fn(...args);}finally{if(el.isConnected)el.disabled=false;}}); }
+function bind(id,fn) { const el=$(id);if(el)el.onclick=safe(async(...args)=>{if(el.disabled||viewGate)return;el.disabled=true;try{return await fn(...args);}finally{if(el.isConnected)el.disabled=false;}}); }
 function safe(fn) { return async(...args)=>{try{return await fn(...args);}catch(error){await fail(error);}}; }
 function addEvent(type,details={}) {
   if(!session)return;
@@ -251,9 +268,10 @@ function selectedSections(m,count=CONFIG.SOKA_REQUIRED_SECTION_COUNT) {
   return selected;
 }
 async function audioReady() {
+  if(viewGate&&!await waitForStudyView())return;
   if(!ctx){
     ctx=new (window.AudioContext||window.webkitAudioContext)({sampleRate:44100});
-    ctx.onstatechange=()=>{if(ctx.state!=='running'&&activeSources.size&&active())void safe(()=>stopSession('audio_suspended','Browser audio was interrupted. Your saved responses are retained.'))();};
+    ctx.onstatechange=()=>{if(ctx.state!=='running'&&activeSources.size&&active())pauseStudyView('audio_interrupted');};
   }
   if(ctx.state!=='running')await ctx.resume();
   if(ctx.state!=='running')throw Error('Audio could not start. Check your headphones and browser sound permission');
@@ -318,11 +336,12 @@ function playBuffer(buffer,when=ctx.currentTime+.025,offset=0,duration=buffer.du
 }
 async function playPassage(start,end,practice=false,playbackOffset=start,playbackDuration=end-start) {
   const run=token;
+  if(!await waitForStudyView()||run!==token||!active())return;
   if(!story||ctx.state!=='running')throw Error('The prepared audiobook is unavailable');
   setState(practice?'practice_story':'story');
   show('<h1>Listen to the story</h1><p>Keep your eyes closed.</p>',true);
   await checkpoint();
-  if(run!==token||!active())return;
+  if(!await waitForStudyView()||run!==token||!active())return;
   const when=ctx.currentTime+.035,stop=when+playbackDuration,beep=makeBeep();
   let mapping='currentTime_to_performance';
   const stamp=ctx.getOutputTimestamp?.();
@@ -331,18 +350,119 @@ async function playPassage(start,end,practice=false,playbackOffset=start,playbac
   const target=practice?currentPractice:currentTrial;
   Object.assign(target,{storyStart_sec:start,storyStop_sec:end,audioBufferOffset_sec:playbackOffset,audioBufferDuration_sec:playbackDuration,scheduledStopAudioTime:stop,scheduledStopPerformance_ms:currentStopPerf,scheduledProbeISO:new Date(Date.now()+currentStopPerf-performance.now()).toISOString(),audioClockMapping:mapping,audioTimingNote:'Scheduled AudioContext boundary mapped to performance clock; acoustic arrival and hardware latency are not independently measured'});
   target.probeStopISO=target.scheduledProbeISO;
+  activePassage={target,stop,run};
   addEvent(practice?'practice_story_start':'story_segment_start',{start_sec:start,end_sec:end,scheduledStopAudioTime:stop});
   // The beep is scheduled on the same audio clock as the story boundary
   await Promise.all([playBuffer(story,when,playbackOffset,playbackDuration),playBuffer(beep,stop,0,beep.duration)]);
-  if(run!==token)return;
+  if(!await waitForStudyView()||run!==token||!active())return;
+  activePassage=null;
   target.probeShownPerformance_ms=performance.now();target.probeDisplayDelay_sec=(performance.now()-currentStopPerf)/1000;
   addEvent(practice?'practice_probe':'probe',{storyStop_sec:end,displayDelay_sec:target.probeDisplayDelay_sec});
   await showAttention(practice);
 }
-async function requestFullscreen() {
-  if(CONFIG.REQUIRE_FULLSCREEN&&!document.fullscreenElement){try{await document.documentElement.requestFullscreen();}catch(e){addEvent('fullscreen_unavailable',{message:e.message});}}
+/* Full-screen + foreground pauses preserve the rendered response and audio clock. */
+function fullscreenElement() {return document.fullscreenElement||document.webkitFullscreenElement||null;}
+function fullscreenSupported() {return !CONFIG.REQUIRE_FULLSCREEN||Boolean(document.documentElement.requestFullscreen||document.documentElement.webkitRequestFullscreen);}
+function studyViewAvailable() {return !document.hidden&&document.hasFocus()&&(!CONFIG.REQUIRE_FULLSCREEN||Boolean(fullscreenElement()));}
+function studyViewBlocked() {return Boolean(viewGate)||(fullscreenEnforced&&active()&&!studyViewAvailable());}
+function gateMessage(message) {const node=$('viewGateMessage');if(node)node.textContent=message;}
+function setPageInert(value) {
+  $('app').inert=value;
+  for(const node of document.querySelectorAll('body > header, body > footer'))node.inert=value;
 }
-async function leaveFullscreen() {if(document.fullscreenElement){try{await document.exitFullscreen();}catch{}}}
+function pauseStudyView(reason) {
+  if(!active()||!fullscreenEnforced)return;
+  if(viewGate){if(!viewGate.reasons.includes(reason))viewGate.reasons.push(reason);return;}
+  const target=practiceRunning?currentPractice:currentTrial;
+  const interruption={reason,phase:state,startISO:nowISO(),startPerformance_ms:performance.now(),audioTimeAtDetection_sec:ctx?.currentTime??null,audioTimeSuspended_sec:ctx?.state!=='running'?(ctx?.currentTime??null):null};
+  if(target?.status==='in_progress'){target.timing??={};(target.timing.interruptions??=[]).push(interruption);target.timing.interrupted=true;}
+  let resolve;
+  const gate={promise:new Promise(r=>{resolve=r;}),resolve:null,reasons:[reason],interruption,focus:document.activeElement,
+    audioWasActive:activeSources.size>0,passage:activePassage,run:token,suspendPromise:Promise.resolve()};
+  gate.resolve=resolve;viewGate=gate;
+  // Set the gate BEFORE suspend: statechange must not abort or reopen a second gate.
+  if(gate.audioWasActive&&ctx&&ctx.state==='running')gate.suspendPromise=ctx.suspend().then(()=>{
+    interruption.audioTimeSuspended_sec=ctx.currentTime;
+  }).catch(e=>{gateMessage('Audio could not pause. Please stop and contact the researcher.');throw e;});
+  // Observe suspension failures even when the participant has not pressed Continue yet.
+  gate.suspendPromise.catch(e=>{addEvent('audio_pause_failed',{message:e.message});});
+  setPageInert(true);$('viewGate').hidden=false;
+  gateMessage(CONFIG.REQUIRE_FULLSCREEN?'Return to this tab and full screen to continue.':'Return to this tab to continue.');
+  $('returnFullscreen').textContent=CONFIG.REQUIRE_FULLSCREEN?'Return to full screen':'Continue';
+  $('returnFullscreen').disabled=false;
+  if(!document.hidden)$('returnFullscreen').focus();
+  addEvent('study_paused',{reason,phase:state,audioWasActive:gate.audioWasActive});
+  void safe(()=>checkpoint(true))();
+}
+async function waitForStudyView() {
+  if(!active())return false;
+  if(fullscreenEnforced&&!studyViewAvailable())pauseStudyView(document.hidden?'tab_hidden':!document.hasFocus()?'window_blur':'fullscreen_exit');
+  if(viewGate){const gate=viewGate;if(!await gate.promise)return false;}
+  return active()&&(!fullscreenEnforced||studyViewAvailable());
+}
+async function enterNativeFullscreen() {
+  if(!CONFIG.REQUIRE_FULLSCREEN||fullscreenElement())return;
+  const root=document.documentElement,request=root.requestFullscreen||root.webkitRequestFullscreen;
+  if(!request)throw Error('This browser does not support the full-screen mode required for this study.');
+  await request.call(root);
+}
+async function requestFullscreen() {
+  fullscreenEnforced=true;
+  try{await enterNativeFullscreen();}catch(e){addEvent('fullscreen_unavailable',{message:e.message});pauseStudyView('fullscreen_required');gateMessage('Full screen is required. Click Return to full screen to try again. '+e.message);}
+  return waitForStudyView();
+}
+async function restoreStudyView() {
+  if(!viewGate||gateResumeBusy)return;
+  gateResumeBusy=true;const gate=viewGate,button=$('returnFullscreen');button.disabled=true;
+  try{
+    // Browser full screen must be requested inside this user click, before async saves.
+    await enterNativeFullscreen();
+    if(!studyViewAvailable())throw Error('Return to this study tab and enable full screen before continuing.');
+    await gate.suspendPromise;
+    if(viewGate!==gate||!active()||gate.run!==token)return;
+    if(gate.audioWasActive){
+      gateMessage('Close your eyes. The audiobook will continue.');
+      await sleep(CONFIG.RESUME_DELAY_SECONDS*1000);
+      if(viewGate!==gate||!studyViewAvailable())throw Error('Return to this study tab and enable full screen before continuing.');
+    }
+    if(ctx&&ctx.state!=='running')await ctx.resume();
+    if(ctx&&ctx.state!=='running')throw Error('Audio is still paused. Click Return to full screen to try again.');
+    if(viewGate!==gate||!studyViewAvailable()){
+      if(ctx&&ctx.state==='running'&&gate.audioWasActive)await ctx.suspend();
+      throw Error('Return to this study tab and enable full screen before continuing.');
+    }
+    const end=performance.now();
+    Object.assign(gate.interruption,{endISO:nowISO(),endPerformance_ms:end,duration_sec:(end-gate.interruption.startPerformance_ms)/1000,reasons:gate.reasons.slice()});
+    // Suspension freezes the audio clock. Remap only a boundary that had NOT happened yet.
+    // A pause after the beep must never move its existing response-time anchor.
+    if(gate.audioWasActive&&gate.passage&&gate.passage===activePassage&&gate.interruption.audioTimeSuspended_sec!==null&&gate.interruption.audioTimeSuspended_sec<gate.passage.stop){
+      const target=gate.passage.target;
+      if(target.initialScheduledStopPerformance_ms==null){target.initialScheduledStopPerformance_ms=target.scheduledStopPerformance_ms;target.initialScheduledProbeISO=target.scheduledProbeISO;}
+      currentStopPerf=performance.now()+(gate.passage.stop-ctx.currentTime)*1000;
+      target.scheduledStopPerformance_ms=currentStopPerf;
+      target.scheduledProbeISO=new Date(Date.now()+currentStopPerf-performance.now()).toISOString();
+      target.probeStopISO=target.scheduledProbeISO;
+      target.audioClockMapping='currentTime_to_performance_after_pause';
+    }
+    viewGate=null;setPageInert(false);$('viewGate').hidden=true;held.clear();
+    if(gate.focus?.isConnected)gate.focus.focus();
+    addEvent('study_resumed',{reasons:gate.reasons,duration_sec:gate.interruption.duration_sec});
+    gate.resolve(true);
+    void safe(()=>checkpoint(true))();
+  }catch(e){
+    if(viewGate===gate){gateMessage(e.message);addEvent('study_resume_waiting',{message:e.message});}
+  }finally{gateResumeBusy=false;if(viewGate===gate)button.disabled=false;}
+}
+function dismissStudyGate() {
+  fullscreenEnforced=false;
+  if(viewGate){const gate=viewGate;viewGate=null;gate.resolve(false);}
+  setPageInert(false);$('viewGate').hidden=true;
+}
+async function leaveFullscreen() {
+  if(fullscreenElement()){
+    try{const exit=document.exitFullscreen||document.webkitExitFullscreen;if(exit)await exit.call(document);}catch{}
+  }
+}
 
 function kssScale() {return `<ol class="scale">${KSS.map((label,i)=>`<li><b>${i+1}</b><span>${esc(label)}</span></li>`).join('')}</ol>`;}
 function screenWelcome() {
@@ -350,31 +470,138 @@ function screenWelcome() {
   show(`<div class="welcome"><div><p class="eyebrow">The Little Prince</p><h1>LPP audiobook study</h1><p>Listen with your eyes closed. When you hear a beep, open your eyes, report your attention and sleepiness, then type the last four words you heard.</p><p>Use a laptop or desktop, headphones and a quiet room.</p><p>Soka students complete ${CONFIG.SOKA_REQUIRED_SECTION_COUNT} blocks. Other participants choose how many blocks to complete. Each block ends with comprehension questions and a break.</p><div class="row"><button id="begin" ${manifest?'':'disabled'}>Begin</button><button id="instructions" class="secondary">Read instructions</button></div></div><figure class="cover"><img src="${COVER_IMAGE}" alt="The Little Prince standing on his planet" width="624" height="1000"></figure></div>${packageError?notice(esc(packageError),'warn'):''}${localMode?notice('Local rehearsal is enabled. Responses will stay on this browser until you download them.','warn'):''}`);
   bind('begin',screenParticipantID);bind('instructions',()=>screenInstructions(false));
 }
-function instructionText() {
-  const count=plan.length;const ending=count?`all ${count} blocks`:'your selected blocks';
-  const counts=plan.map(s=>s.probes.length),trialLine=counts.length&&new Set(counts).size===1?`You will complete ${counts[0]} trials per block.`:'The number of trials varies by block; each block uses its prepared probes.';
-  return `<h1>Experiment Instructions</h1>
-  <p>During this experiment, you will listen to an audiobook recording with your eyes closed. Your task is to follow the narration and understand the story as you listen. <strong>You must keep your eyes closed while listening to the audiobook.</strong></p>
-  <p>At intervals, you will hear a beep and the audiobook will pause. We call this a probe. When you hear the probe, open your eyes and use the keyboard to complete three tasks in this order:</p>
-  <ol><li>Report your attentional state.</li><li>Report your sleepiness state.</li><li>Recall the audiobook.</li></ol>
-  <h2>Task 1. Attentional state</h2><p>Use the arrow keys to report your attentional state <strong>JUST before the probe</strong>. There are two possible responses:</p>
-  <div class="panel"><div class="keys"><kbd>↑</kbd><div><strong>On-task.</strong><p>You were focused on the audiobook as it was being played. This means that you were following the narration: you were listening to the narrator’s voice and understanding what was happening in the story.</p></div></div>
-  <div class="keys"><kbd>↓</kbd><div><strong>Off-task.</strong><p>You were not focused on the part of the audiobook that was playing. In other words, you were focused on something unrelated to the narration, such as planning or imagining an upcoming event or remembering a previous conversation.</p></div></div></div>
-  <p>Also choose off-task if you were thinking about any of the following:</p><ul><li>An earlier part of the story (if thinking about it caused you to lose track of the current narration).</li><li>Your experience of the task (e.g., “This task is very boring” or “I just made a mistake”).</li><li>Your body or a bodily sensation (e.g., “My stomach is growling” or “I have pain in my lower back”).</li><li>Something in your surroundings (e.g., “I heard a door closing” or “I felt a draft from an air vent”).</li></ul>
-  <p>Also choose off-task if your mind was blank (you were not thinking about anything at all) or if you don’t remember what you were thinking about just before the probe.</p>
-  <p>In this experiment, we’re interested in what you experience as you listen to the audiobook. Your task is to stay focused on the audiobook, but it’s natural for your attention to drift from time to time. Both on-task and off-task responses are equally valuable to us. There are no right or wrong answers. Please answer honestly based on what you experienced.</p>
-  <h3>Notes</h3><ul><li>Report the attentional state you experienced immediately before the probe. Sometimes you may be off-task for a while and then return your attention to the audiobook just before the probe. In this case, respond on-task because your attention was on the audiobook just before the probe.</li><li>You must keep your eyes closed while the audiobook is playing. When you hear the probe, you can open your eyes and answer the questions.</li><li>You have as much time as you want to respond to the questions. The experiment will wait until you enter a valid answer before continuing.</li></ul>
-  <h2>Task 2. Sleepiness state</h2><p>After reporting your attentional state, you will report how sleepy or alert you felt just before the probe using one of the following keys:</p>${kssScale()}
-  <p>We will show you this scale during the experiment so you don’t have to memorize it now.</p><p>Your sleepiness may change during the course of the experiment. At each probe, choose the number that best matches how you felt just before the probe. Use the full range from 1 to 9 as needed to reflect any changes. In this experiment, we’re interested in what you experience as you listen to the audiobook. There are no right or wrong answers. Please answer honestly based on what you experienced.</p>
-  <h2>Task 3. Recall the audiobook</h2><p>After reporting your sleepiness, you will be asked to recall <strong>the last four words</strong> that were played just before the probe.</p><p>You’ll see the beginning of an audiobook segment on the screen. Type the four words that followed those shown on the screen, up to the probe, in the order you heard them. If you remember only some of the words, type what you remember. Use the exact words that were played in the audiobook. Avoid paraphrasing or substituting words.</p><p>Try to spell each word correctly. If you remember a word but are unsure how to spell it, type your best attempt. It’s okay if you make a spelling mistake.</p>
-  <h3>Example</h3><div class="examples"><p>Imagine the audiobook played these words just before a probe: “The dog chased the big cat through the open door.”</p><p>The screen would show <strong>The dog chased the big cat</strong>.</p><p>The correct response would be <strong>through the open door</strong>.</p></div>
-  <p>You can type your response in lowercase and avoid using quotation marks (“...”). If you remember no words, select “I don’t remember any words.”</p><p>Review your response, then press <kbd>Enter</kbd> to submit it.</p><p>After you press Enter, close your eyes again. The audiobook will resume automatically after a short pause and the next trial will begin. ${trialLine}</p>
-  <h2>End of each block</h2><p>At the end of each block, you will hear a bell sound. You can then open your eyes and answer four multiple-choice questions about the part of the audiobook that was played during the block. You will also rate how confident you are in each answer.</p><p>After completing the questions and confidence ratings, you can take a short break. When you’re ready, press Enter to prepare the next block. Close your eyes when you begin listening.</p><p><strong>Complete each block and its comprehension questions in one sitting.</strong> Take breaks after the questions.</p><p>The experiment ends after you complete ${ending}. Thank you for participating!</p>`;
+/* Instruction pages and the required understanding check. */
+const INSTRUCTION_CHECK_QUESTIONS = [
+  {
+    id:'attention_immediately_before',
+    question:'You were mind-wandering for a while, but then focused on the audiobook for the last few seconds before the probe. What should you report?',
+    options:['On-task','Off-task'],
+    correctAnswer:1,
+    explanation:'Report on-task because your attention was on the audiobook immediately before the probe, even if you were off-task earlier.'
+  },
+  {
+    id:'attention_current_narration',
+    question:'You were following the audiobook, but just before the probe you started thinking about a previous conversation and lost track of the narration. What should you report?',
+    options:['On-task','Off-task'],
+    correctAnswer:2,
+    explanation:'Report off-task because you were focused on something unrelated to the narration immediately before the probe, even if you were on-task earlier.'
+  },
+  {
+    id:'eyes_while_listening',
+    question:'While the audiobook is playing, should your eyes be open or closed?',
+    options:['Open','Closed'],
+    correctAnswer:2,
+    explanation:'Keep your eyes closed while the audiobook is playing. When you hear the probe, you can open your eyes and answer the questions.'
+  }
+];
+
+function instructionText(page=0) {
+  const count=plan.length;
+  const ending=count?`all ${count} block${count===1?'':'s'}`:'your selected blocks';
+  const counts=plan.map(s=>s.probes.length);
+  const trialLine=counts.length&&new Set(counts).size===1
+    ?`You will complete ${counts[0]} trials per block.`
+    :counts.length?`The number of trials varies by block (${counts.join(', ')} trials, in block order).`
+    :'The number of trials depends on the block.';
+  const pages=[
+    `<h1>Experiment Instructions</h1>
+    <p>Before the experiment begins, follow the on-screen instructions to answer a few questions about your English proficiency and how familiar you are with The Little Prince.</p>
+    <p>In the experiment, you will listen to an audiobook recording of The Little Prince with your eyes closed. Your task is to follow the narration and understand the story as you listen. <strong>You MUST keep your eyes closed while listening to the audiobook.</strong></p>
+    <p>At random intervals, you will hear a beep and the audiobook will pause. We call this a probe. When you hear the probe, open your eyes and use the keyboard to complete three tasks in this order:</p>
+    <ol><li>Report your attentional state.</li><li>Report your sleepiness state.</li><li>Recall the audiobook.</li></ol>
+    <h2>Task 1. Attentional state</h2>
+    <p>Use the arrow keys to report your attentional state <strong>JUST before the probe</strong>. There are two possible responses:</p>
+    <div class="panel"><div class="keys"><kbd>↑</kbd><div><strong>Up arrow: On-task.</strong><p>You were focused on the audiobook as it was being played. This means that you were following the narration: you were listening to the narrator’s voice and understanding what was happening in the story.</p></div></div>
+    <div class="keys"><kbd>↓</kbd><div><strong>Down arrow: Off-task.</strong><p>You were not focused on the part of the audiobook that was playing. In other words, you were focused on something unrelated to the narration, such as planning or imagining an upcoming event or remembering a previous conversation.</p></div></div></div>
+    <p>Also choose off-task if you were thinking about any of the following:</p>
+    <ul><li>An earlier part of the story (if thinking about it caused you to lose track of the current narration).</li><li>Your experience of the task (e.g., “This task is very boring” or “I just made a mistake”).</li><li>Your body or a bodily sensation (e.g., “My stomach is growling” or “I have pain in my lower back”).</li><li>Something in your surroundings (e.g., “I heard a door closing” or “I felt a draft from an air vent”).</li></ul>
+    <p>Also choose off-task if your mind was blank (you were not thinking about anything at all) or if you don’t remember what you were thinking about just before the probe.</p>
+    <div class="instruction-emphasis notice"><p>In this experiment, we’re interested in what you experience as you listen to the audiobook. Your task is to stay focused on the audiobook, but it’s natural for your attention to drift from time to time. Both on-task and off-task responses are equally valuable to us. There are no right or wrong answers. Please answer honestly based on what you experienced.</p></div>
+    <h3>Notes</h3>
+    <ul><li>Report the attentional state you experienced immediately before the probe. Sometimes you may be off-task for a while and then return your attention to the audiobook just before the probe. In this case, respond on-task because your attention was on the audiobook just before the probe.</li><li>You must keep your eyes closed while the audiobook is playing. When you hear the probe, you can open your eyes and answer the questions.</li><li>You have as much time as you want to respond to the questions. The experiment will wait until you enter a valid answer before continuing.</li></ul>`,
+
+    `<h1>Task 2. Sleepiness state</h1>
+    <p>After reporting your attentional state, you will report how sleepy or alert you felt just before the probe using one of the following keys:</p>
+    ${kssScale()}
+    <p>We will show you this scale during the experiment so you don’t have to memorize it now.</p>
+    <div class="instruction-emphasis notice"><p>Your sleepiness may change during the course of the experiment. At each probe, choose the number that best matches how you felt just before the probe. Use the full range from 1 to 9 as needed to reflect any changes. In this experiment, we’re interested in what you experience as you listen to the audiobook. There are no right or wrong answers. Please answer honestly based on what you experienced.</p></div>`,
+
+    `<h1>Task 3. Recall the audiobook</h1>
+    <p>After reporting your sleepiness, you will be asked to recall <strong>the last four words</strong> that were played just before the probe.</p>
+    <p>You’ll see the beginning of an audiobook segment on the screen. Type the words that followed those shown on the screen, up to the probe, in the order you heard them. If you remember only some of the words, type what you remember. Use the exact words that were played in the audiobook. Avoid paraphrasing or substituting words.</p>
+    <p>Try to spell each word correctly. If you remember a word but are unsure how to spell it, type your best attempt. It’s okay if you make a spelling mistake.</p>
+    <h3>Example</h3>
+    <div class="examples"><p>Imagine the audiobook played these words just before a probe. “The dog chased the big cat through the open door.” In this example,</p><ul><li>The screen would show <strong>The dog chased the big cat</strong>.</li><li>The correct response would be <strong>through the open door</strong>.</li></ul></div>
+    <p>You can type your response in lowercase and avoid using quotation marks (“...”).</p>
+    <p>If you don’t remember any words, leave the box empty and press Enter.</p>
+    <p>Review your response, then press <kbd>Enter</kbd> to submit it.</p>
+    <p>After you press Enter, close your eyes again. The audiobook will resume automatically and the next trial will begin. ${trialLine}</p>
+    <h2>End of each block</h2>
+    <p>At the end of each block, you will hear a bell sound. You can then open your eyes and answer four multiple-choice questions about the part of the audiobook that was played during the block. You will also rate how confident you are in each answer.</p>
+    <p>After completing the questions and confidence ratings, you can take a short break. When you’re ready, press Enter to prepare the next block, then select Begin block and close your eyes again.</p>
+    <p>The experiment ends after you complete ${ending}. Thank you for participating!</p>
+    <div class="instruction-emphasis notice"><p>If you must take a break, a good time is at the <strong>END of a section, after answering the comprehension questions and confidence ratings.</strong></p></div>
+    ${CONFIG.REQUIRE_FULLSCREEN?'<p>Full screen is required to continue. If you need to exit full screen, wait until a probe or a break between blocks. Return to full screen when you are ready to continue.</p>':''}`
+  ];
+  return pages[page]??pages[0];
 }
-function screenInstructions(afterDemographics=true) {
-  setState('instructions');show(instructionText()+`<div class="row"><button id="instructionsNext">${afterDemographics?'Continue':'Back'}</button></div>`);
-  bind('instructionsNext',afterDemographics?screenAudioCheck:screenWelcome);
+
+function screenInstructions(afterDemographics=true,page=0) {
+  if(afterDemographics&&page>0&&session?.meta?.instructionCheck?.status!=='passed'){
+    screenInstructionCheck(afterDemographics);
+    return;
+  }
+  setState('instructions',{instructionPage:page+1});
+  const label=page===0?'Continue to understanding check':page===1?'Continue to Task 3':afterDemographics?'Continue':'Back to welcome';
+  show(instructionText(page)+`<div class="row"><button id="instructionsNext">${label}</button></div>`);
+  bind('instructionsNext',async()=>{
+    if(page===0){screenInstructionCheck(afterDemographics);return;}
+    if(page===1){screenInstructions(afterDemographics,2);return;}
+    if(!afterDemographics){screenWelcome();return;}
+    session.meta.instructionsCompletedISO=nowISO();
+    await checkpoint(true);
+    if(active())screenAudioCheck();
+  });
 }
+
+function screenInstructionCheck(afterDemographics=true,index=0,previewRecord=null) {
+  const saved=afterDemographics&&Boolean(session);
+  const record=saved
+    ?(session.meta.instructionCheck??={status:'in_progress',required:true,startedISO:nowISO(),attempts:[],passedQuestionIDs:[]})
+    :(previewRecord??{status:'in_progress',required:true,startedISO:nowISO(),attempts:[],passedQuestionIDs:[]});
+  const q=INSTRUCTION_CHECK_QUESTIONS[index];
+  if(!q){
+    if(INSTRUCTION_CHECK_QUESTIONS.some(item=>!record.passedQuestionIDs.includes(item.id))){screenInstructionCheck(afterDemographics,0,record);return;}
+    record.status='passed';record.completedISO=nowISO();
+    if(saved){void safe(async()=>{await checkpoint(true);if(active())screenInstructions(true,1);})();}
+    else screenInstructions(false,1);
+    return;
+  }
+  setState('instruction_check',{instructionCheckQuestion:index+1});
+  show(`<h1>Check your understanding</h1><p class="small">Question ${index+1} of ${INSTRUCTION_CHECK_QUESTIONS.length}</p><p>${esc(q.question)}</p>${q.options.map((o,i)=>`<button id="instructionAnswer${i+1}" class="option"><b>${i+1}</b>${esc(o)}</button>`).join('')}<div id="instructionFeedback" aria-live="polite"></div><div class="row"><button id="instructionCheckNext" disabled>${index===INSTRUCTION_CHECK_QUESTIONS.length-1?'Continue to Task 2':'Next question'}</button></div>`);
+  let start=null,answered=false,correct=false,advancing=false;
+  const answer=async n=>{
+    if(start===null||answered||!Number.isInteger(n)||n<1||n>q.options.length)return;
+    answered=true;keyHandler=null;correct=n===q.correctAnswer;
+    record.attempts.push({questionID:q.id,questionNumber:index+1,question:q.question,options:q.options.slice(),correctAnswer:q.correctAnswer,response:n,correct,RT:(performance.now()-start)/1000,responseISO:nowISO()});
+    if(correct&&!record.passedQuestionIDs.includes(q.id))record.passedQuestionIDs.push(q.id);
+    for(let i=1;i<=q.options.length;i++)$('instructionAnswer'+i).disabled=true;
+    $('instructionFeedback').innerHTML=notice(`${correct?'Correct.':'Please try again.'} ${esc(q.explanation)}`,correct?'':'warn');
+    const next=$('instructionCheckNext');
+    next.textContent=correct?(index===INSTRUCTION_CHECK_QUESTIONS.length-1?'Continue to Task 2':'Next question'):'Try again';
+    if(saved)await checkpoint(true);
+    if(saved&&!active())return;
+    if(next.isConnected)next.disabled=false;
+  };
+  for(let n=1;n<=q.options.length;n++)bind('instructionAnswer'+n,()=>answer(n));
+  bind('instructionCheckNext',()=>{
+    if(!answered||advancing)return;
+    advancing=true;
+    screenInstructionCheck(afterDemographics,correct?index+1:index,record);
+  });
+  armChoice(e=>{if(/^[1-2]$/.test(e.key)){e.preventDefault();void safe(()=>answer(Number(e.key)))();}},()=>{start=performance.now();});
+}
+
 function screenParticipantID() {
   setState('participant_id');show('<p class="eyebrow">Before you begin</p><h1>Participant information</h1><label class="field" for="pid">Participant ID</label><input id="pid" type="text" maxlength="64" autocomplete="off" spellcheck="false"><p id="idError" class="error"></p><div class="row"><button id="idNext">Continue</button></div>');
   const next=()=>{const value=$('pid').value.trim();if(!/^[A-Za-z0-9_-]{1,64}$/.test(value)){$('idError').textContent='Enter an ID using letters, numbers, hyphens or underscores.';return;}pid=value;questionnaire={};chosenSectionCount=null;plan=[];showDemographic(0);};
@@ -405,7 +632,7 @@ async function createSession() {
   setState('checking');show('<h1>Preparing your session</h1><p>Checking the save connection…</p>');
   if(!localMode)await checkEndpoint();
   const iso=nowISO(),stamp=iso.slice(0,19).replace(/[-:]/g,'').replace('T','_'),prefix=pid+'_'+stamp;
-  session={schemaVersion:2,protocol:'lpp-typed',session_id:prefix+'_'+randomToken().slice(0,8),file_prefix:prefix,participant_id:pid,app_version:CONFIG.APP_VERSION,mode:localMode?'local-test':'study',startISO:iso,storyStartISO:null,endISO:null,status:'in_progress',participant:structuredClone(questionnaire),plan:structuredClone(plan),sections:[],events:[],practice:{required:questionnaire.sokaStudent.response===1,status:'not_started',trials:[]},progress:{phase:'instructions',section:null,probeNumber:null,buffering:false},meta:{timestampTimezone:'UTC',sectionPolicy:{sokaRequiredCount:CONFIG.SOKA_REQUIRED_SECTION_COUNT,nonSokaMaxCount:CONFIG.NON_SOKA_MAX_SECTION_COUNT,selectedCount,selection:soka?'required':'chosen'},plannedSections:plan.map(s=>s.section),expectedSectionCount:plan.length,expectedProbeCount:plan.reduce((n,s)=>n+s.probes.length,0),expectedQuestionCount:plan.reduce((n,s)=>n+s.questions.length,0),attentionCoding:{onTask:1,offTask:0},eyes:'closed_during_story_open_for_responses',responseOrder:['onTask','KSS','typedRecall'],responseTimeLimit:null,audioMode:'lab_segments',RTDefinition:'Choice RT begins after all observed held keys are released; recall RT begins after text-field focus',sourceAnnotations:manifest.sourceAnnotations,manifestSHA256:await hash(new TextEncoder().encode(JSON.stringify(manifest))),assetHashes:manifest.assets,userAgent:navigator.userAgent,bufferingStats:{loads:0,totalLoadSeconds:0,maxLoadSeconds:0,errors:0},protocolTiming:{probeBeepHz:500,probeBeepDuration_sec:.060,probeBeepFade_sec:.005,resumeDelay_sec:CONFIG.RESUME_DELAY_SECONDS,probeOffset_sec:0},backupDownloadInitiatedISO:null,backupConfirmedISO:null}};
+  session={schemaVersion:2,protocol:'lpp-typed',session_id:prefix+'_'+randomToken().slice(0,8),file_prefix:prefix,participant_id:pid,app_version:CONFIG.APP_VERSION,mode:localMode?'local-test':'study',startISO:iso,storyStartISO:null,endISO:null,status:'in_progress',participant:structuredClone(questionnaire),plan:structuredClone(plan),sections:[],events:[],practice:{required:true,status:'not_started',trials:[]},progress:{phase:'instructions',section:null,probeNumber:null,buffering:false},meta:{timestampTimezone:'UTC',sectionPolicy:{sokaRequiredCount:CONFIG.SOKA_REQUIRED_SECTION_COUNT,nonSokaMaxCount:CONFIG.NON_SOKA_MAX_SECTION_COUNT,selectedCount,selection:soka?'required':'chosen'},plannedSections:plan.map(s=>s.section),expectedSectionCount:plan.length,expectedProbeCount:plan.reduce((n,s)=>n+s.probes.length,0),expectedQuestionCount:plan.reduce((n,s)=>n+s.questions.length,0),attentionCoding:{onTask:1,offTask:0},eyes:'closed_during_story_open_for_responses',responseOrder:['onTask','KSS','typedRecall'],responseTimeLimit:null,audioMode:'lab_segments',RTDefinition:'Choice RT begins when its response screen is ready; recall RT begins after text-field focus. Wall-clock RT includes any foreground/fullscreen pause; interruptions are recorded in trial.timing.',sourceAnnotations:manifest.sourceAnnotations,manifestSHA256:await hash(new TextEncoder().encode(JSON.stringify(manifest))),assetHashes:manifest.assets,userAgent:navigator.userAgent,bufferingStats:{loads:0,totalLoadSeconds:0,maxLoadSeconds:0,errors:0},protocolTiming:{probeBeepHz:500,probeBeepDuration_sec:.060,probeBeepFade_sec:.005,resumeDelay_sec:CONFIG.RESUME_DELAY_SECONDS,probeOffset_sec:0},practiceRequiredForAll:true,requireFullscreen:CONFIG.REQUIRE_FULLSCREEN,pauseOnFocusLoss:true,backupDownloadInitiatedISO:null,backupConfirmedISO:null}};
   revision=0;confirmedVersion=0;confirmedHash='';receipt=null;latestCheckpoint=null;requestedRevision=0;uploadError='';localSaveError='';ending=false;confirmedDownload=false;sectionInfo=null;currentTrial=null;sectionIndex=0;probeIndex=0;token++;
   addEvent('session_start');await checkpoint(true);heartbeat();screenInstructions(true);
 }
@@ -416,13 +643,18 @@ function screenAudioCheck() {
   bind('soundNext',async()=>{session.meta.soundCheckConfirmedISO=nowISO();await checkpoint(true);screenPracticeIntro();});
 }
 function screenPracticeIntro() {
-  setState('practice_intro');const required=session.practice.required;
-  show(`<p class="eyebrow">Practice</p><h1>Try two probes</h1><p>You will hear two short passages from a later part of the audiobook, one after the other. Each is about five seconds long.</p><p>Close your eyes while listening. At each beep, open your eyes and report your attention, your sleepiness, then type the last four words after the displayed cue.</p><p>For example: <kbd>↑</kbd> if you were following the story, or <kbd>↓</kbd> if you were off-task; then a sleepiness number from <kbd>1</kbd> to <kbd>9</kbd>; then your recalled words and <kbd>Enter</kbd>.</p><p>We’ll show the expected recall after each practice probe. Your attention and sleepiness reports have no right or wrong answers.</p>${notice(required?'Practice is required for Soka students. Complete both probes before starting the study.':'Practice is recommended. You may skip it if you already understand the task.')}<div class="row"><button id="startPractice">Prepare practice</button>${required?'':'<button id="skipPractice" class="secondary">Skip practice</button>'}</div>`);
+  setState('practice_intro');
+  const supported=fullscreenSupported();
+  show(`<h1>Practice</h1><p>You will hear two short passages from a later part of the audiobook. Close your eyes while listening. At each beep, open your eyes and report your attention, your sleepiness, then type the last four words after the displayed cue.</p><p>The beep and response screens are the same as in the experiment. Each practice passage is about five seconds long. We’ll show the expected recall after each practice probe.</p><p>Complete both probes before starting the experiment. You can repeat the practice afterward.</p>${!supported?notice('This browser cannot enter the full-screen mode required for this study. Open the study in a desktop browser with full-screen support.','warn'):''}<div class="row"><button id="startPractice" ${supported?'':'disabled'}>Prepare practice</button></div>`);
   bind('startPractice',startPractice);
-  bind('skipPractice',async()=>{if(session.practice.required)throw Error('Practice is required');session.practice.status='skipped';await checkpoint(true);await prepareSection();});
 }
 async function startPractice() {
   const run=++token;practiceRunning=true;practiceIndex=0;
+  if(session.practice.status==='complete'){
+    (session.practice.attempts??=[]).push({selectedIDs:session.practice.selectedIDs.slice(),completedISO:session.practice.completedISO,trials:structuredClone(session.practice.trials)});
+  }
+  delete session.practice.completedISO;
+  session.practice.required=true;
   const pool=manifest.practice.slice();practiceChoices=[];
   for(let i=0;i<2;i++)practiceChoices.push(pool.splice(Math.floor(Math.random()*pool.length),1)[0]);
   session.practice.status='in_progress';session.practice.trials=[];session.practice.selectedIDs=practiceChoices.map(p=>p.id);
@@ -430,14 +662,14 @@ async function startPractice() {
   if(!bell)bell=duplicateMono(await assetBuffer(manifest.bellFile,run));
   for(const p of practiceChoices){requireAudioRate(p.sampleRate);const buffer=await assetBuffer(p.audiobookFile,run);if(run!==token)return;if(buffer.sampleRate!==p.sampleRate||Math.abs(buffer.duration-p.duration_sec)>1/p.sampleRate)throw Error('Practice audio differs from its prepared source');practiceBuffers.set(p.id,duplicateMono(buffer));}
   setState('practice_ready');show('<p class="eyebrow">Practice · Ready</p><h1>Close your eyes when you begin</h1><p>Listen until the beep, then open your eyes and answer on screen.</p><button id="practiceBegin">Begin practice</button>');
-  let started=false;const begin=async()=>{if(started)return;started=true;keyHandler=null;await requestFullscreen();await audioReady();await nextPractice();};
+  let started=false;const begin=async()=>{if(started)return;started=true;keyHandler=null;if(!await requestFullscreen()||!active())return;await audioReady();await nextPractice();};
   bind('practiceBegin',begin);
   keyHandler=e=>{if(e.key==='Enter'){e.preventDefault();void safe(begin)();}};
 }
 async function nextPractice() {
   if(!active())return;
   const p=practiceChoices[practiceIndex];
-  if(!p){practiceRunning=false;session.practice.status='complete';session.practice.completedISO=nowISO();await checkpoint(true);story=null;storySection=null;practiceBuffers.clear();await prepareSection();return;}
+  if(!p){practiceRunning=false;session.practice.status='complete';session.practice.completedISO=nowISO();await checkpoint(true);story=null;storySection=null;practiceBuffers.clear();screenPracticeComplete();return;}
   currentPractice={...structuredClone(p),probeNumber:practiceIndex+1,onTask:null,KSS:null,recallResponse:'',recallNoMemory:false,onTaskRT:null,KSSRT:null,recallRT:null,probeToRecallEnd_sec:null,status:'in_progress'};
   session.practice.trials.push(currentPractice);story=practiceBuffers.get(p.id);storySection=9;
   setState('practice_resuming');show('<h1>Close your eyes</h1><p>Listen until the beep.</p>',true);const run=token;await sleep(CONFIG.RESUME_DELAY_SECONDS*1000);if(run!==token||!active())return;
@@ -447,20 +679,26 @@ function normalizeRecall(s) {return String(s).toLowerCase().normalize('NFKC').re
 async function practiceFeedback() {
   setState('practice_feedback');const correct=normalizeRecall(currentPractice.recallResponse)===normalizeRecall(currentPractice.recallTarget);
   currentPractice.practiceExactMatch=correct;await checkpoint(true);
-  show(`<p class="eyebrow">Practice ${practiceIndex+1} of 2</p><h1>${correct?'You recalled the four words':'Compare your recall'}</h1><p><strong>Cue:</strong> ${esc(currentPractice.cue)}</p><p><strong>Your response:</strong> ${currentPractice.recallNoMemory?'I don’t remember any words':esc(currentPractice.recallResponse)}</p><p><strong>Expected words:</strong> ${esc(currentPractice.recallTarget)}</p><p>${correct?'That matches the words from the audiobook.':'Use the words you heard, in their original order. Partial recall and spelling mistakes are okay; type what you remember.'}</p><p class="small">Your attention and sleepiness answers are personal reports. They are not marked right or wrong.</p><button id="practiceContinue">${practiceIndex===0?'Continue to the second probe':'Continue to the study'}</button>`);
+  show(`<p class="eyebrow">Practice ${practiceIndex+1} of 2</p><h1>${correct?'You recalled the four words':'Compare your recall'}</h1><p><strong>Cue:</strong> ${esc(currentPractice.cue)}</p><p><strong>Your response:</strong> ${currentPractice.recallNoMemory?'(blank)':esc(currentPractice.recallResponse)}</p><p><strong>Expected words:</strong> ${esc(currentPractice.recallTarget)}</p><p>${correct?'That matches the words from the audiobook.':'Use the words you heard, in their original order. Partial recall and spelling mistakes are okay; type what you remember.'}</p><p class="small">Your attention and sleepiness answers are personal reports. They are not marked right or wrong.</p><button id="practiceContinue">${practiceIndex===0?'Continue to the second probe':'Finish practice'}</button>`);
   let accepted=false;const next=async()=>{if(accepted)return;accepted=true;practiceIndex++;await nextPractice();};bind('practiceContinue',next);keyHandler=e=>{if(e.key==='Enter'){e.preventDefault();void safe(next)();}};
+}
+
+function screenPracticeComplete() {
+  setState('practice_complete');
+  show('<h1>Practice complete</h1><p>You have completed both practice probes.</p><div class="row"><button id="practiceStudy">Continue to the study</button><button id="repeatPractice" class="secondary">Repeat practice</button></div>');
+  bind('practiceStudy',prepareSection);bind('repeatPractice',startPractice);
 }
 
 async function prepareSection() {
   if(!active())return;
-  if(session.practice.required&&session.practice.status!=='complete')throw Error('Complete both practice probes first');
+  if(session.practice.status!=='complete')throw Error('Complete both practice probes first');
   const run=++token,s=plan[sectionIndex];if(!s){await finishSession();return;}
   currentTrial=null;sectionInfo=session.sections.find(x=>x.section===s.section)||null;
   await audioReady();await loadAudioSection(s);if(run!==token)return;
   if(!sectionInfo){sectionInfo={section:s.section,audiobookFile:s.audiobookFile,probeTimes:s.probes.map(p=>p.probe_sec),expectedQuestionCount:s.questions.length,status:'in_progress',startTime:null,endTime:null,trials:[],comprehension:[]};session.sections.push(sectionInfo);}
   setState('section_ready');await checkpoint(true);
-  show(`<p class="eyebrow">Block ${sectionIndex+1} of ${plan.length} · ${s.probes.length} probes</p><h1>Close your eyes when you begin</h1><p>Follow the narration. At each beep, open your eyes and give these three responses:</p><div class="panel"><p><kbd>↑</kbd> On-task or <kbd>↓</kbd> Off-task</p><p>Sleepiness: <kbd>1</kbd>–<kbd>9</kbd></p><p>Type the last four words, then <kbd>Enter</kbd></p></div><p>Complete this block and its four comprehension questions in one sitting. You can take a break afterward.</p><p class="small"><kbd>Esc</kbd> exits full screen. To stop the session, press <kbd>Q</kbd> when you are not typing a recall response.</p><button id="beginBlock">Begin block ${sectionIndex+1}</button>`);
-  let started=false;const begin=async()=>{if(started)return;started=true;keyHandler=null;await requestFullscreen();await audioReady();sectionInfo.startTime=nowISO();session.storyStartISO ||= sectionInfo.startTime;session.meta.audioSampleRate=ctx.sampleRate;session.meta.baseLatency_sec=ctx.baseLatency??null;session.meta.outputLatency_sec=ctx.outputLatency??null;probeIndex=0;addEvent('section_start');await checkpoint(true);await nextProbe();};
+  show(`<p class="eyebrow">Block ${sectionIndex+1} of ${plan.length}</p><h1>Close your eyes when you begin</h1><p>Complete this block and its comprehension questions before taking a break.</p><button id="beginBlock">Begin block ${sectionIndex+1}</button>`);
+  let started=false;const begin=async()=>{if(started)return;started=true;keyHandler=null;if(!await requestFullscreen()||!active())return;await audioReady();sectionInfo.startTime=nowISO();session.storyStartISO ||= sectionInfo.startTime;session.meta.audioSampleRate=ctx.sampleRate;session.meta.baseLatency_sec=ctx.baseLatency??null;session.meta.outputLatency_sec=ctx.outputLatency??null;probeIndex=0;addEvent('section_start');await checkpoint(true);await nextProbe();};
   bind('beginBlock',begin);keyHandler=e=>{if(e.key==='Enter'){e.preventDefault();void safe(begin)();}};
 }
 async function nextProbe() {
@@ -475,54 +713,70 @@ async function nextProbe() {
 }
 async function showAttention(practice=false) {
   const trial=practice?currentPractice:currentTrial;setState(practice?'practice_attention':'attention');
-  show(`<p class="eyebrow">${practice?`Practice ${practiceIndex+1} of 2`:`Block ${sectionIndex+1} · Probe ${probeIndex+1}`} · Task 1</p><h1>Where was your attention just before the beep?</h1><p>You can open your eyes.</p><div class="panel"><div class="keys"><kbd>↑</kbd><strong>On-task</strong></div><div class="keys"><kbd>↓</kbd><strong>Off-task</strong></div></div><p class="small">Press the up or down arrow. Report the moment immediately before the beep.</p>`);
+  show('<h1>Where was your attention just before the beep?</h1><div class="panel"><div class="keys"><kbd>↑</kbd><strong>On-task</strong></div><div class="keys"><kbd>↓</kbd><strong>Off-task</strong></div></div>');
   trial.attentionShownPerformance_ms=performance.now();let start=null,answered=false;
-  armChoice(e=>{if(!['ArrowUp','ArrowDown'].includes(e.code)||answered)return;e.preventDefault();answered=true;keyHandler=null;trial.onTask=e.code==='ArrowUp'?1:0;trial.onTaskRT=(performance.now()-start)/1000;trial.attentionResponseISO=nowISO();void safe(async()=>{await checkpoint();if(active())showSleepiness(practice);})();},()=>{start=performance.now();trial.attentionReadyPerformance_ms=start;});
+  armChoice(e=>{
+    if(!['ArrowUp','ArrowDown'].includes(e.code)||answered||studyViewBlocked())return;
+    e.preventDefault();answered=true;keyHandler=null;
+    trial.onTask=e.code==='ArrowUp'?1:0;trial.onTaskRT=(performance.now()-start)/1000;trial.attentionResponseISO=nowISO();
+    // Saving is queued immediately; displaying the next question does not wait on disk.
+    void safe(()=>checkpoint())();if(active())showSleepiness(practice);
+  },()=>{start=performance.now();trial.attentionReadyPerformance_ms=start;});
 }
 function showSleepiness(practice=false) {
   const trial=practice?currentPractice:currentTrial;setState(practice?'practice_sleepiness':'sleepiness');
-  show(`<p class="eyebrow">Task 2 · Sleepiness</p><h1>How sleepy or alert did you feel just before the beep?</h1>${kssScale()}<p class="small">Press a number from 1 to 9.</p>`);
+  show(`<h1>Sleepiness just before the beep</h1>${kssScale()}`);
   trial.KSSShownPerformance_ms=performance.now();let start=null,answered=false;
-  armChoice(e=>{if(!/^[1-9]$/.test(e.key)||answered)return;e.preventDefault();answered=true;keyHandler=null;trial.KSS=Number(e.key);trial.KSSRT=(performance.now()-start)/1000;trial.KSSResponseISO=nowISO();void safe(async()=>{await checkpoint();if(active())showRecall(practice);})();},()=>{start=performance.now();trial.KSSReadyPerformance_ms=start;});
+  armChoice(e=>{
+    if(!/^[1-9]$/.test(e.key)||answered||studyViewBlocked())return;
+    e.preventDefault();answered=true;keyHandler=null;trial.KSS=Number(e.key);trial.KSSRT=(performance.now()-start)/1000;trial.KSSResponseISO=nowISO();
+    void safe(()=>checkpoint())();if(active())showRecall(practice);
+  },()=>{start=performance.now();trial.KSSReadyPerformance_ms=start;});
 }
 function showRecall(practice=false) {
   const trial=practice?currentPractice:currentTrial;setState(practice?'practice_recall':'recall');
-  show(`<p class="eyebrow">Task 3 · Recall</p><h1>Type the last four words</h1><p>Continue after the words shown below, up to the beep.</p><div class="cue">${esc(trial.cue)} …</div><label class="field" for="recall">Your recalled words</label><textarea id="recall" rows="2" maxlength="500" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="recallHelp"></textarea><label class="check"><input id="noMemory" type="checkbox"><span>I don’t remember any words.</span></label><p id="recallHelp" class="small">Type what you remember, in order. Partial recall and spelling mistakes are okay. Press Enter to submit, then close your eyes.</p><p id="recallError" class="error"></p><button id="submitRecall">Submit recall</button>`);
+  show(`<h1>Type the last four words</h1><div class="recall-line"><label class="recall-cue" for="recall">${esc(trial.cue)}</label><input id="recall" type="text" maxlength="500" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Words following the cue"></div><button id="submitRecall">Submit</button>`);
   const input=$('recall');let start=null,submitted=false;
   input.value=trial.recallResponse||'';
-  const draft=()=>{trial.recallResponse=input.value;trial.recallNoMemory=$('noMemory').checked;clearTimeout(draftTimer);draftTimer=setTimeout(()=>{void safe(()=>checkpoint())();},300);};
-  input.oninput=()=>{if(input.value.trim())$('noMemory').checked=false;draft();};
-  $('noMemory').onchange=()=>{if($('noMemory').checked&&input.value.trim()){$('noMemory').checked=false;$('recallError').textContent='Keep the words you remembered, or clear the box if you remember none.';}else $('recallError').textContent='';draft();};
+  input.oninput=()=>{
+    trial.recallResponse=input.value;trial.recallNoMemory=!input.value.trim();
+    clearTimeout(draftTimer);draftTimer=setTimeout(()=>{void safe(()=>checkpoint())();},300);
+  };
   const submit=async()=>{
-    if(submitted)return;
-    const raw=input.value,noMemory=$('noMemory').checked;
-    if(!raw.trim()&&!noMemory){$('recallError').textContent='Type any words you remember, or select “I don’t remember any words.”';return;}
-    if(raw.trim()&&noMemory){$('recallError').textContent='Uncheck “I don’t remember any words” to submit the words you typed.';return;}
+    if(submitted||studyViewBlocked())return;
+    const raw=input.value,noMemory=!raw.trim();
     submitted=true;clearTimeout(draftTimer);keyHandler=null;input.disabled=true;$('submitRecall').disabled=true;
     const end=performance.now();Object.assign(trial,{recallResponse:raw,recallNoMemory:noMemory,recallRT:(end-start)/1000,probeToRecallEnd_sec:(end-currentStopPerf)/1000,recallSubmittedPerformance_ms:end,recallSubmittedISO:nowISO(),status:'complete'});trial.recallSubmitISO=trial.recallSubmittedISO;
-    addEvent(practice?'practice_response_complete':'probe_complete',{probeToRecallEnd_sec:trial.probeToRecallEnd_sec});await checkpoint(true);
+    addEvent(practice?'practice_response_complete':'probe_complete',{probeToRecallEnd_sec:trial.probeToRecallEnd_sec});
+    const saved=checkpoint(true);
+    if(!practice){setState('resuming');show('<h1>Close your eyes</h1>',true);}
+    await saved;
     if(!active())return;
     if(practice){await practiceFeedback();return;}
-    setState('resuming');show('<h1>Close your eyes</h1><p>The audiobook will continue.</p>',true);const run=token;await sleep(CONFIG.RESUME_DELAY_SECONDS*1000);if(run!==token||!active())return;probeIndex++;await nextProbe();
+    const run=token;await sleep(CONFIG.RESUME_DELAY_SECONDS*1000);
+    if(!await waitForStudyView()||run!==token||!active())return;
+    probeIndex++;await nextProbe();
   };
-  bind('submitRecall',submit);input.onkeydown=e=>{if(e.key==='Enter'&&!e.repeat&&!e.isComposing){e.preventDefault();void safe(submit)();}};
+  bind('submitRecall',submit);
+  input.onkeydown=e=>{if(e.key==='Enter'&&!e.repeat&&!e.isComposing&&!studyViewBlocked()){e.preventDefault();void safe(submit)();}};
   keyHandler=e=>{if(e.key==='Enter'&&e.target!==input&&!e.isComposing){e.preventDefault();void safe(submit)();}};
   input.focus();start=performance.now();trial.recallReadyPerformance_ms=start;
 }
+
 async function endSection() {
-  const run=token;currentTrial=null;setState('section_bell');show('<h1>This block is complete</h1><p>You can open your eyes.</p>');addEvent('section_story_complete');await playBuffer(bell);if(run!==token||!active())return;
-  setState('questions_intro');show(`<p class="eyebrow">Block ${sectionIndex+1} · Listening complete</p><h1>Answer four questions</h1><p>Keep your eyes open. Answer each question about this part of the story, then rate your confidence.</p><button id="beginQuestions">Begin questions</button>`);
+  const run=token;if(!await waitForStudyView()||run!==token||!active())return;currentTrial=null;setState('section_bell');show('<h1>This block is complete</h1><p>You can open your eyes.</p>');addEvent('section_story_complete');await playBuffer(bell);if(run!==token||!active())return;
+  setState('questions_intro');show(`<h1>Answer four questions</h1><p>Keep your eyes open. Answer each question about this part of the story, then rate your confidence.</p><button id="beginQuestions">Begin questions</button>`);
   let started=false;const next=()=>{if(started)return;started=true;showQuestion(0);};bind('beginQuestions',next);keyHandler=e=>{if(e.key==='Enter'){e.preventDefault();next();}};await checkpoint(true);
 }
 function showQuestion(qi) {
   const q=plan[sectionIndex].questions[qi];if(!q)return void safe(finishSection)();
-  setState('comprehension');show(`<p class="eyebrow">Block ${sectionIndex+1} · Question ${qi+1} of 4</p><h1>${esc(q.question)}</h1>${q.options.map((o,i)=>`<button id="answer${i+1}" class="option"><b>${i+1}</b>${esc(o)}</button>`).join('')}<p class="small">Click an answer, or press 1–4.</p>`);
+  setState('comprehension');show(`<h1>${esc(q.question)}</h1>${q.options.map((o,i)=>`<button id="answer${i+1}" class="option"><b>${i+1}</b>${esc(o)}</button>`).join('')}`);
   let start=null,answered=false;
   const answer=async n=>{if(start===null||answered)return;answered=true;keyHandler=null;const r={questionNumber:q.questionNumber,question:q.question,options:q.options.slice(),correctAnswer:q.correctAnswer,response:n,correct:Number(n===q.correctAnswer),responseTime:performance.now()/1000,responseTimeClock:'browser performance seconds',responseISO:nowISO(),RT:(performance.now()-start)/1000,confidence:null,confidenceRT:null};sectionInfo.comprehension.push(r);await checkpoint();if(active())showConfidence(qi,r);};
   for(let n=1;n<=4;n++)bind('answer'+n,()=>answer(n));armChoice(e=>{if(/^[1-4]$/.test(e.key)){e.preventDefault();void safe(()=>answer(Number(e.key)))();}},()=>{start=performance.now();});
 }
 function showConfidence(qi,r) {
-  setState('confidence');show(`<p class="eyebrow">Question ${qi+1} · Confidence</p><h1>How sure are you that your answer was correct?</h1>${['Very unsure','Somewhat unsure','Somewhat sure','Very sure'].map((o,i)=>`<button id="confidence${i+1}" class="option"><b>${i+1}</b>${o}</button>`).join('')}<p class="small">Click a rating, or press 1–4.</p>`);
+  setState('confidence');show(`<h1>How sure are you that your answer was correct?</h1>${['Very unsure','Somewhat unsure','Somewhat sure','Very sure'].map((o,i)=>`<button id="confidence${i+1}" class="option"><b>${i+1}</b>${o}</button>`).join('')}`);
   let start=null,answered=false;
   const answer=async n=>{if(start===null||answered)return;answered=true;keyHandler=null;r.confidence=n;r.confidenceRT=(performance.now()-start)/1000;r.confidenceISO=nowISO();await checkpoint(true);if(active())showQuestion(qi+1);};
   for(let n=1;n<=4;n++)bind('confidence'+n,()=>answer(n));armChoice(e=>{if(/^[1-4]$/.test(e.key)){e.preventDefault();void safe(()=>answer(Number(e.key)))();}},()=>{start=performance.now();});
@@ -534,10 +788,10 @@ async function finishSection() {
   let started=false;const next=async()=>{if(started)return;started=true;await prepareSection();};bind('nextBlock',next);keyHandler=e=>{if(e.key==='Enter'){e.preventDefault();void safe(next)();}};await checkpoint(true);
 }
 async function finishSession() {
-  if(ending)return;ending=true;session.status='complete';session.endISO=nowISO();addEvent('session_complete');setState('backup');clearTimeout(heartbeatTimer);try{await checkpoint(true);}catch(e){localSaveError=e.message;}await leaveFullscreen();await showBackup();
+  if(ending)return;ending=true;dismissStudyGate();session.status='complete';session.endISO=nowISO();addEvent('session_complete');setState('backup');clearTimeout(heartbeatTimer);try{await checkpoint(true);}catch(e){localSaveError=e.message;}await leaveFullscreen();await showBackup();
 }
 async function stopSession(reason,message='') {
-  if(!active()||ending)return;ending=true;token++;keyHandler=null;clearTimeout(draftTimer);clearTimeout(heartbeatTimer);stopAudio();practiceRunning=false;
+  if(!active()||ending)return;ending=true;dismissStudyGate();token++;activePassage=null;keyHandler=null;clearTimeout(draftTimer);clearTimeout(heartbeatTimer);stopAudio();practiceRunning=false;
   session.status='aborted';session.endISO=nowISO();session.meta.abortReason=reason;session.meta.abortMessage=message;if(sectionInfo?.status==='in_progress'){sectionInfo.status='aborted';sectionInfo.endTime=session.endISO;}if(currentTrial?.status==='in_progress')currentTrial.status='partial';if(session.practice.status==='in_progress'){session.practice.status='aborted';if(currentPractice?.status==='in_progress')currentPractice.status='partial';}
   addEvent('session_aborted',{reason});setState('backup');try{await checkpoint(true);}catch{}await leaveFullscreen();await showBackup(message);
 }
@@ -578,19 +832,39 @@ async function researcherSettings() {
   });
 }
 document.addEventListener('keydown',e=>{
-  const already=held.has(e.code);held.add(e.code);
-  if(e.repeat||already){if(['ArrowUp','ArrowDown','Enter'].includes(e.code)&&!['INPUT','TEXTAREA'].includes(e.target?.tagName))e.preventDefault();return;}
+  held.add(e.code);
+  // The browser's repeat flag handles held keys. A stale keyup cannot disable input.
+  if(e.repeat){if(['ArrowUp','ArrowDown','Enter'].includes(e.code)&&!['INPUT','TEXTAREA'].includes(e.target?.tagName))e.preventDefault();return;}
   if(e.isComposing||$('settings').open)return;
-  if(e.code==='Escape'){void leaveFullscreen();addEvent('fullscreen_exit_key');return;}
+  if(e.code==='Escape'){
+    // Browsers can always exit full screen. Pause, preserve data, and require re-entry.
+    addEvent('fullscreen_exit_key');void leaveFullscreen();return;
+  }
+  if(studyViewBlocked()){
+    if(!viewGate)pauseStudyView('foreground_required');
+    // Let native Enter/Space activate the visible return button, but no study answers.
+    return;
+  }
   if(e.code==='KeyQ'&&active()&&!['INPUT','TEXTAREA'].includes(e.target?.tagName)){e.preventDefault();void safe(()=>stopSession('participant_stop'))();return;}
   if(keyHandler)keyHandler(e);
 });
-document.addEventListener('keyup',e=>{held.delete(e.code);releaseReady();});
-window.addEventListener('blur',()=>{held.clear();releaseReady();if(active())addEvent('window_blur');});
-document.addEventListener('visibilitychange',()=>{
-  if(!active())return;addEvent(document.hidden?'tab_hidden':'tab_visible');
-  if(document.hidden){held.clear();releaseReady();if(['story','practice_story'].includes(state))void safe(()=>stopSession('tab_hidden_during_audio','The study stopped because the audiobook tab was hidden. Your completed responses have been saved.'))();}
+document.addEventListener('keyup',e=>{held.delete(e.code);});
+window.addEventListener('blur',()=>{
+  held.clear();if(active()){addEvent('window_blur');pauseStudyView('window_blur');}
 });
+window.addEventListener('focus',()=>{held.clear();});
+document.addEventListener('visibilitychange',()=>{
+  if(!active())return;
+  addEvent(document.hidden?'tab_hidden':'tab_visible');held.clear();
+  if(document.hidden)pauseStudyView('tab_hidden');
+});
+for(const event of ['fullscreenchange','webkitfullscreenchange'])document.addEventListener(event,()=>{
+  if(active()&&fullscreenEnforced&&!fullscreenElement())pauseStudyView('fullscreen_exit');
+});
+$('returnFullscreen').onclick=()=>{void restoreStudyView();};
+
+$('stopPausedSession').onclick=safe(()=>stopSession('participant_stop_while_paused'));
+
 window.addEventListener('online',()=>queueUpload(true));
 window.addEventListener('beforeunload',e=>{if(active()||uploadRunning||session?.mode==='study'&&confirmedVersion<revision&&!confirmedDownload){e.preventDefault();e.returnValue='';}});
 $('researcherToggle').onclick=safe(researcherSettings);
